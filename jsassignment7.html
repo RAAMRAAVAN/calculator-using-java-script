@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <!-- <label for="size">Enter size of the array</label>
+    <input type="number" id="size" />
+    <input type="button" id="sizeButton" value="click here to submit size" onclick="inputSize()"/> -->
+
+    <label for="array">Enter your array</label>
+    <input type="text" id="numbers"/>
+    <input type="button" onclick="insert()" id="insert" value="insert">
+
+    <div>
+        <p id="sum"></p>
+    </div>
+</body>
+<script>
+    let sizeOfArray,arr;
+    // function inputSize()
+    // {
+    //     sizeOfArray=parseInt(document.getElementById("size").value);
+    //     console.log(sizeOfArray);
+    // }
+    function insert()
+    {   
+        arr=document.getElementById("numbers").value;
+        console.log(arr);
+    }
+    
+</script>
+</html>

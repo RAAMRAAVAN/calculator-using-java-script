@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        numbers{display: flex;
+        flex-direction: column;
+    justify-content: center;
+    border:1px black solid;
+align-items: center;}
+    </style>
+    <script src="jsassignment9.js"></script>
+</head>
+<body>
+    <numbers id="number">
+        <div>
+        <input type="button" onclick="input(1)" value="1" id="1" name="digit"/>
+        <input type="button" onclick="input(2)" value="2" id="2" name="digit"/>
+        <input type="button" onclick="input(3)" value="3" id="3" name="digit"/>
+        </div>
+        <div>
+        <input type="button" onclick="input(4)" value="4" id="4" name="digit"/>
+        <input type="button" onclick="input(5)" value="5" id="5" name="digit"/>
+        <input type="button" onclick="input(6)" value="6" id="6" name="digit"/>
+        </div>
+        <div>
+        <input type="button" onclick="input(7)" value="7" id="7" name="digit"/>
+        <input type="button" onclick="input(8)" value="8" id="8" name="digit"/>
+        <input type="button" onclick="input(9)" value="9" id="9" name="digit"/>
+        </div>
+        <div>
+        <input type="button" onclick="input(0)" value="0" id="0" name="digit"/>
+        </div>
+        
+        <div>
+            <p id="expression"></p>
+            <button onclick="addition()">+</button>
+            <button onclick="subtraction()">-</button>
+            <button onclick="multiplication()">*</button>
+            <button onclick="division()">/</button>  
+        </div>
+        <div>
+            <button onclick="result()">=</button>
+            <button onclick="clean()">C</button>
+            <p id="result"></p>
+        </div>
+    </numbers>
+    
+    
+    
+
+</body>
+
+</html>
